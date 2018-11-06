@@ -1,2 +1,2 @@
 # eon-app
-Eon page example
+Eon page example in Angular
