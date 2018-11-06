@@ -1,0 +1,30 @@
+<section>
+  <article>
+    <h3>Birajte kako želite da gledate TV</h3>
+    <p>Uz EON Smart BOX svaki TV postaje Smart TV</p>
+  </article>
+</section>
+
+<section class="mb-4">
+  <article class="d-flex p-3 mb-4 rounded choose-device-border">
+    <!-- Template reference variable smartBox -->
+    <span class="choose-package-text font-weight-bold">TV uz <span class="choose-package-text" #smartBox>EON Smart BOX</span></span>
+    <div class="m-auto"></div>
+    <!-- Event binding on button click -->
+    <button type="button" class="btn btn-primary text-center p-2 font-weight-bold" (click)="selectPackage(smartBox)">Odaberi</button>
+  </article>
+
+  <article class="d-flex p-3 rounded choose-device-border">
+    <!-- Template reference variable eonApp -->
+    <span class="choose-package-text font-weight-bold">TV uz <span class="choose-package-text" #eonApp>EON aplikaciju</span></span>
+    <div class="m-auto"></div>
+    <!-- Event binding on button click -->
+    <button type="button" class="btn btn-primary text-center p-2 font-weight-bold" (click)="selectPackage(eonApp)">Odaberi</button>
+  </article>
+
+  <a href="#">
+    <i class="fas fa-arrow-left text-primary"></i>
+    <!-- Event binding for going back to the first page -->
+    <p class="text-primary mt-5 d-inline-block pl-1" (click)="onClick($event)"> Nazad na izbor paketa</p>
+  </a>
+</section>

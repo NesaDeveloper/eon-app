@@ -1,0 +1,10 @@
+// Importing tab.component.scss style
+@import "../tab/tab.component";
+
+.devices {
+  font-size: 13px !important;
+}
+
+.inherit-width {
+  width: inherit;
+}

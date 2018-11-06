@@ -1,0 +1,19 @@
+@import "../styles/base";
+// Import style from base.scss
+
+section, hr {
+  margin: auto;
+  width: 50vw;
+  font-size: 14px !important;
+}
+//media query for width where devices have lower width than 800px
+@media only screen and (max-width: 800px) {
+  section, hr {
+    width: auto;
+  }
+}
+
+.choose-package-text {
+  padding-top: 10px;
+  color: black !important;
+}

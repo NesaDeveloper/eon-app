@@ -1,0 +1,8 @@
+// Importing tab.component.scss style
+@import "../tab/tab.component";
+
+// Made multicolor border
+.choose-device-border {
+  border: solid 1mm goldenrod;
+  border-image: linear-gradient(to left, blue, pink) 1;
+}

@@ -1,0 +1,16 @@
+// Variable naming
+$font-eon: azo-sans-web,sans-serif;
+$font-eon-color: gray;
+// Use in whole page
+* {
+  font-family: $font-eon;
+  color: $font-eon-color;
+}
+
+button {
+  color: white;
+  font-size: 1em;
+  width: 15vw;
+}
+
+

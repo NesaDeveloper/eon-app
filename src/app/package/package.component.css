@@ -1,0 +1,25 @@
+* {
+  font-family: azo-sans-web, sans-serif;
+  color: gray; }
+
+button {
+  color: white;
+  font-size: 1em;
+  width: 15vw; }
+
+section, hr {
+  margin: auto;
+  width: 50vw;
+  font-size: 14px !important; }
+
+@media only screen and (max-width: 800px) {
+  section, hr {
+    width: auto; } }
+.choose-package-text {
+  padding-top: 10px;
+  color: black !important; }
+
+.whitesmoke-background {
+  background: whitesmoke; }
+
+/*# sourceMappingURL=package.component.css.map */

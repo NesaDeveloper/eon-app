@@ -1,0 +1,18 @@
+<div class="mt-2 text-center">
+  <img width="183" alt="" src="assets/images/logo.png">
+</div>
+
+<hr class="rainbow">
+
+<!-- Angular material library for tabs and property binding selectedIndex -->
+<mat-tab-group mat-stretch-tabs [selectedIndex] = selectedIndex>
+  <!-- mat-tab presents one tab -->
+  <mat-tab label="Paketi"></mat-tab>
+  <mat-tab label="Uređaji">
+    <div class="mat-tab-smaller">
+      <!-- Tab component with event binding goToPackages -->
+      <app-tab (goToPackages)="goToPackages()"></app-tab>
+    </div>
+  </mat-tab>
+  <mat-tab label="Podaci"></mat-tab>
+</mat-tab-group>
