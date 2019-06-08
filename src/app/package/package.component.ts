@@ -1,16 +1,23 @@
-import { Component, OnInit, Input } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 
 @Component({
-  selector: 'app-package',
-  templateUrl: './package.component.html',
-  styleUrls: ['./package.component.css']
+    selector: 'app-package',
+    templateUrl: './package.component.html',
+    styleUrls: ['./package.component.scss']
 })
 export class PackageComponent implements OnInit {
-  // Input binding property packageName
-  @Input() packageName: string;
+    readonly currency = 'rsd/mes';
+    readonly eonPackage = 'EON FULL';
+    readonly packageChoose = 'Izabrani paket';
+    readonly packagePrice = 1999;
+    readonly tvPackage = 'TV';
 
-  constructor() { }
+    // Input binding property packageName
+    @Input() packageName: string;
 
-  ngOnInit() {}
+    constructor() {
+    }
 
+    ngOnInit() {
+    }
 }

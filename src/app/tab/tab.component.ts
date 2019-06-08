@@ -4,7 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 @Component({
   selector: 'app-tab',
   templateUrl: './tab.component.html',
-  styleUrls: ['./tab.component.css']
+  styleUrls: ['./tab.component.scss']
 })
 export class TabComponent implements OnInit {
   // Property selectedIndex i event goToPackages, setsPackage binding
